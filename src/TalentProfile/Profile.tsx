@@ -13,7 +13,8 @@ return (
                 <img className='rounded-full h-48 w-48 -bottom-1/3 absolute left-3 border-8 border-mine-shaft-950' src="/avatar.png" alt="profile" />
             </div>
             <div className='px-3 mt-20'>
-                <div className='text-3xl font-semibold justify-between flex'>{props.name}<Button color='brightSun.4' variant='light'>Message</Button></div>
+                <div className='text-3xl font-semibold justify-between flex'>{props.name}
+                    <Button color='brightSun.4' variant='light'>Message</Button></div>
                 <div className='text-xl flex gap-1 items-center'><IconBriefcase className='h-5 w-5' stroke={1.5}/> {props.role} &bull; {props.company}</div>
                 <div className='flex gap-1 text-lg items-center text-mine-shaft-300'>
                     <IconMapPin className='h-5 w-5' stroke={1.5}/> {props.location}

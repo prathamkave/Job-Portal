@@ -20,7 +20,7 @@ const DreamJob = () => {
                 </div>
                 <div className="w-[55%] flex justify-center items-center">
                     <div className="w-[30rem] relative">
-                        <img src="./Boy.png" alt="boy image" />
+                        <img src="./Boy.png" alt="boy" />
                         <div className="absolute w-fit top-[50%] -right-10 border-bright-sun-400 border rounded-lg p-2 backdrop-blur-md">
                             <div className="text-center mb-1 text-sm text-mine-shaft-100 ">10K+ got job!</div>
                             <AvatarGroup>

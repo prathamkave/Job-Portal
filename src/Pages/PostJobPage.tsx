@@ -1,7 +1,8 @@
 import React from 'react'
+import PostJob from '../PostJob/PostJob';
 
 
-const PostJob = () => {
+const PostJobPage = () => {
 return (
     <>
         <div className="min-h-[90vh] bg-mine-shaft-950 font-['poppins'] p-4">
@@ -10,4 +11,4 @@ return (
     </>
 )}
 
-export default PostJob;
+export default PostJobPage;

@@ -1,13 +1,13 @@
 import { useEffect, useState } from 'react';
 import { Checkbox, Combobox, Group, Pill, PillsInput, useCombobox } from '@mantine/core';
-import { IconSearch, IconSelector } from '@tabler/icons-react';
+import { IconSelector } from '@tabler/icons-react';
 import { Input } from '@mantine/core';
 
 const MultiSelectCreatable=(props:any)=> {
 
   useEffect(()=>{
     setData(props.options);
-  },[])
+  },[props.options])
 
   const combobox = useCombobox({
     onDropdownClose: () => combobox.resetSelectedOption(),
